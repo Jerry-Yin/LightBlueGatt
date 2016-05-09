@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/switch_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="关闭蓝牙"
+        android:textOff="打开蓝牙"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/btn_discovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="搜索蓝牙"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@+id/switch_on"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/text_cur_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未与任何设备配对"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/text_cur_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前进度值：0"
+            android:layout_marginTop="20dp"/>
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+   <ProgressBar
+       android:id="@+id/progress_bar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       style="@style/AppTheme"
+       android:layout_centerInParent="true"
+       android:visibility="invisible"/>
+
+
+</RelativeLayout>

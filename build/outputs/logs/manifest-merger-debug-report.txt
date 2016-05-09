@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:3:5-40
+	android:versionName
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml
+		INJECTED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml
+		INJECTED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:8:9-35
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:10:5-89
+	android:required
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:10:64-87
+	android:name
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:10:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:13:22-71
+application
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:14:5-29:19
+	android:label
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:16:9-45
+	android:theme
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:18:9-40
+activity#com.example.lightbluegatt.yin.MainActivity2
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:19:9-27:20
+	android:label
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:20:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/AndroidManifest.xml:25:27-74

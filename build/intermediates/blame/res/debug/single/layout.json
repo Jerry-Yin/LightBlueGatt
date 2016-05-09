@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/build/intermediates/res/merged/debug/layout/layout_item_device_lists.xml",
+        "source": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/res/layout/layout_item_device_lists.xml"
+    },
+    {
+        "merged": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/build/intermediates/res/merged/debug/layout/layout_main3.xml",
+        "source": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/res/layout/layout_main3.xml"
+    },
+    {
+        "merged": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/build/intermediates/res/merged/debug/layout/layout_main2.xml",
+        "source": "/Users/JerryYin/WorkSpace/Android Studio/LightBlueGatt/res/layout/layout_main2.xml"
+    }
+]
